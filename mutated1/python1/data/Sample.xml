@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="/Users/phoebe/IdeaProjects/mutated1/java1/src/initial/Sample.java"><package>package <name>initial</name>;</package>
+
+<class><specifier>public</specifier> class <name>Sample</name> <block>{
+    <function><type><specifier>public</specifier> <specifier>static</specifier> <name>boolean</name></type> <name>compare</name><parameter_list>(<parameter><decl><type><name>int</name></type> <name>a</name></decl></parameter>, <parameter><decl><type><name>int</name></type> <name>b</name></decl></parameter>)</parameter_list> <block>{<block_content>
+        <return>return <expr><name>a</name> <operator>&lt;</operator> <name>b</name></expr>;</return> <comment type="line">// ç¤ºä¾æä½ç¬¦ "&gt;"</comment>
+    </block_content>}</block></function>
+}</block></class></unit>

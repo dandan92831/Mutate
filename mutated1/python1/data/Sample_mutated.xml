@@ -1,0 +1,7 @@
+<ns0:unit xmlns:ns0="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="/Users/phoebe/IdeaProjects/mutated1/java1/src/initial/Sample.java"><ns0:package>package <ns0:name>initial</ns0:name>;</ns0:package>
+
+<ns0:class><ns0:specifier>public</ns0:specifier> class <ns0:name>Sample</ns0:name> <ns0:block>{
+    <ns0:function><ns0:type><ns0:specifier>public</ns0:specifier> <ns0:specifier>static</ns0:specifier> <ns0:name>boolean</ns0:name></ns0:type> <ns0:name>compare</ns0:name><ns0:parameter_list>(<ns0:parameter><ns0:decl><ns0:type><ns0:name>int</ns0:name></ns0:type> <ns0:name>a</ns0:name></ns0:decl></ns0:parameter>, <ns0:parameter><ns0:decl><ns0:type><ns0:name>int</ns0:name></ns0:type> <ns0:name>b</ns0:name></ns0:decl></ns0:parameter>)</ns0:parameter_list> <ns0:block>{<ns0:block_content>
+        <ns0:return>return <ns0:expr><ns0:name>a</ns0:name> <ns0:operator>&gt;</ns0:operator> <ns0:name>b</ns0:name></ns0:expr>;</ns0:return> <ns0:comment type="line">// &#231;&#164;&#186;&#228;&#190;&#139;&#230;&#147;&#141;&#228;&#189;&#156;&#231;&#172;&#166; "&gt;"</ns0:comment>
+    </ns0:block_content>}</ns0:block></ns0:function>
+}</ns0:block></ns0:class></ns0:unit>
